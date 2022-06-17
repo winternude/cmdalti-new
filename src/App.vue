@@ -1,5 +1,5 @@
 <template>
-  <div><p>This is a Div</p></div>
+  <div><p>This is a Div Wow a new div</p></div>
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
