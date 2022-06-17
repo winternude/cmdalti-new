@@ -2,7 +2,7 @@
   <div><p>This is a Div Wow a new div</p></div>
   <nav>
     <router-link to="/">Never Go Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">Give me a reason</router-link>
   </nav>
   <router-view />
 </template>
