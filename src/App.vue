@@ -1,5 +1,5 @@
 <template>
-  <div><p>This is a Div Wow a new div</p></div>
+  <div class ="navbar"><p>This is a Div Wow a new div</p></div>
   <nav>
     <router-link to="/">Never Go Home</router-link> |
     <router-link to="/about">Give me a reason</router-link>
@@ -27,5 +27,12 @@ nav {
       color: #42b983;
     }
   }
+}
+
+.navbar {
+width: 100vw;
+height: 40px;
+background-color: grey;
+
 }
 </style>
