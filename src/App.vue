@@ -1,9 +1,11 @@
 <template>
-  <div class="navbar"><p>This is a Div Wow a new div</p></div>
-  <nav>
-    <router-link to="/">Never Go Home</router-link> |
-    <router-link to="/about">Give me a reason</router-link>
-  </nav>
+  <div class="navbar">
+    <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/pageone">What now</router-link>
+    </nav>
+  </div>
   <router-view />
 </template>
 
@@ -12,8 +14,9 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
+  background-color: #ffffff;
+  width: 100vw;
 }
 
 nav {
@@ -30,8 +33,11 @@ nav {
 }
 
 .navbar {
-  width: 100vw;
+  width: 100%;
   height: 40px;
   background-color: grey;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px 0px 16px;
 }
 </style>
