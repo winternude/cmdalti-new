@@ -1,7 +1,4 @@
 <template>
-  <h1>New Element</h1>
-  <p>this is not mounted, why?</p>
-  <p>console.log</p>
   <newComp />
 </template>
 
